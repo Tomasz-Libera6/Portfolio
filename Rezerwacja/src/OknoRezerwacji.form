@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="OknoRezerwacji">
+  <grid id="27dc6" binding="rezerwa" layout-manager="GridLayoutManager" row-count="11" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="5" left="10" bottom="5" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="549" height="354"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="87b85" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Imie"/>
+        </properties>
+      </component>
+      <component id="a36d7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cena od:"/>
+        </properties>
+      </component>
+      <component id="6bd81" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Data od:"/>
+        </properties>
+      </component>
+      <component id="99783" class="javax.swing.JButton" binding="rezerwuj">
+        <constraints>
+          <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Rezerwuj"/>
+        </properties>
+      </component>
+      <component id="ac630" class="javax.swing.JButton" binding="dodaj">
+        <constraints>
+          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Dodaj pokoj"/>
+        </properties>
+      </component>
+      <component id="fef01" class="javax.swing.JButton" binding="reset">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="RESET"/>
+        </properties>
+      </component>
+      <vspacer id="addf9">
+        <constraints>
+          <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="1484a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Lozka"/>
+        </properties>
+      </component>
+      <component id="c27ee" class="javax.swing.JSpinner" binding="odCena">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c1d8f" class="javax.swing.JFormattedTextField" binding="imie">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <grid id="6ed4b" binding="odData" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <component id="c069a" class="javax.swing.JComboBox" binding="lozka">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="wybierz lozka"/>
+            <item value="1 lozko 1-os"/>
+            <item value="2 lozka 1-os"/>
+            <item value="3 lozka 1-os"/>
+            <item value="4 lozka 1-os"/>
+            <item value="1 lozko 2-os"/>
+            <item value="2 lozka 2-os"/>
+            <item value="1 lozko 1-os + 1 lozko 2-os"/>
+            <item value="2 lozka 1-os + 1 lozko 2-os"/>
+          </model>
+        </properties>
+      </component>
+      <component id="5b71d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="do:"/>
+        </properties>
+      </component>
+      <component id="d54b8" class="javax.swing.JSpinner" binding="doCena">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="eadde" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nazwisko"/>
+        </properties>
+      </component>
+      <component id="d8760" class="javax.swing.JFormattedTextField" binding="nazwisko">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="true"/>
+        </properties>
+      </component>
+      <component id="5ed14" class="javax.swing.JCheckBox" binding="telewizor">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Telewizor"/>
+        </properties>
+      </component>
+      <component id="b0c8" class="javax.swing.JCheckBox" binding="kuchnia">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Kuchnia"/>
+        </properties>
+      </component>
+      <component id="9118e" class="javax.swing.JCheckBox" binding="balkon">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Balkon"/>
+        </properties>
+      </component>
+      <hspacer id="77964">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <grid id="3b70" binding="doData" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <component id="ffe60" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="do:"/>
+        </properties>
+      </component>
+      <vspacer id="6cea6">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="f7667" class="javax.swing.JButton" binding="filtruj">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Filtruj"/>
+        </properties>
+      </component>
+      <component id="dc7ec" class="javax.swing.JButton" binding="cofnij">
+        <constraints>
+          <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cofnij dodanie"/>
+        </properties>
+      </component>
+      <scrollpane id="19af7">
+        <constraints>
+          <grid row="5" column="0" row-span="5" col-span="5" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="7f3a9" class="javax.swing.JTable" binding="lista">
+            <constraints/>
+            <properties>
+              <enabled value="true"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="f2583" class="javax.swing.JButton" binding="odwolanie">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Zarzadzaj rezerwacjami"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="lozka">
+      <member id="3dcd0"/>
+      <member id="c9157"/>
+      <member id="4f34c"/>
+      <member id="287e8"/>
+      <member id="9abf0"/>
+      <member id="79c27"/>
+    </group>
+  </buttonGroups>
+</form>
